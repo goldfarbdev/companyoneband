@@ -1,3 +1,4 @@
+@import (reference) 'variables.less';
 img{
 	width: 100%;
 }
@@ -62,8 +63,8 @@ h1{
 	}
 }
 #co1-tour div {
-	background: black;
-	color:white;
+
+	color:#000;
 }
 #co1-tour {
 	background: black;
@@ -115,7 +116,7 @@ h1{
 		background:white;
 	}
 	img{
-		max-width:250px;
+		width:auto;
 	}
 }
 
@@ -127,3 +128,12 @@ h1{
 }
 
 
+#co1-facebook{
+
+	@media (min-width: @screen-md-min){
+		h2.widgettitle{
+			margin-top:0;
+		}
+	}
+
+}

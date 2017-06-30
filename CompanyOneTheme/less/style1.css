@@ -1,3 +1,8 @@
+/*
+Theme Name: Company One Band
+Author: Goldfarb Development
+Author URI: http://goldfarbdev.com
+*/
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6773,7 +6778,8 @@ h1 {
   z-index: 2;
 }
 #co1-tour div {
-  color: #000;
+  background: black;
+  color: white;
 }
 #co1-tour {
   background: black;
@@ -6819,16 +6825,11 @@ h1 {
   background: white;
 }
 #co1-digital img {
-  width: auto;
+  width:auto;
 }
 #co1-about h2 {
   margin: 1em;
   text-decoration: underline;
-}
-@media (min-width: 992px) {
-  #co1-facebook h2.widgettitle {
-    margin-top: 0;
-  }
 }
 body {
   position: relative;

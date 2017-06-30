@@ -50,8 +50,7 @@ h1 {
   z-index: 2;
 }
 #co1-tour div {
-  background: black;
-  color: white;
+  color: #000;
 }
 #co1-tour {
   background: black;
@@ -97,9 +96,14 @@ h1 {
   background: white;
 }
 #co1-digital img {
-  max-width: 250px;
+  width: auto;
 }
 #co1-about h2 {
   margin: 1em;
   text-decoration: underline;
+}
+@media (min-width: 992px) {
+  #co1-facebook h2.widgettitle {
+    margin-top: 0;
+  }
 }

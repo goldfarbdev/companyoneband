@@ -91,6 +91,9 @@
                     <a href="<?php site_url(); ?>#co1-digital">DIGITAL</a>
                 </li>
                 <li>
+                    <a href="<?php site_url(); ?>#co1-facebook">FACEBOOK</a>
+                </li>
+                <li>
                     <a href="<?php site_url(); ?>#co1-tour">TOUR</a>
                 </li>
                 <li>
@@ -102,9 +105,7 @@
                 <li>
                     <a href="<?php site_url(); ?>#co1-contact">CONTACT</a>
                 </li>
-                <li>
-                    <a href="<?php site_url(); ?>#co1-facebook">FACEBOOK</a>
-                </li>
+
             </ul>
         </div><!--/.navbar-collapse -->
       </div>

@@ -71,7 +71,29 @@
             wp_reset_postdata();
             ?>
         </section>
-
+        <section id="co1-facebook">
+            <div class="container">
+                <h1>FACEBOOK</h1>
+            </div>
+<!--            <div class="container">-->
+<!--                <div style="text-align: center;">-->
+<!--                    <div class="fb-like" data-href="http://companyoneband.com/" data-width="250" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <br/><br/>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="text-align: center;">
+                        <div class="fb-page" data-href="https://www.facebook.com/CompanyOneBand" data-tabs="timeline" data-width="600" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/CompanyOneBand" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CompanyOneBand">CompanyOne</a></blockquote></div>
+                    </div>
+                    <div class="col-md-6">
+                        <style>.widgettitle{text-align: center;}</style>
+                        <?php echo do_shortcode('[widget id="xtfacebook_widget-2"]'); ?>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <hr>
         <section id="co1-tour">
             <?php
             // query for the about page
@@ -163,21 +185,5 @@
             ?>
         </section>
         <hr/>
-        <section id="co1-facebook">
-            <div class="container">
-                <h1>FACEBOOK</h1>
-            </div>
-            <div class="container">
-                <div style="text-align: center;">
-                    <div class="fb-like" data-href="http://companyoneband.com/" data-width="250" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-                </div>
-            </div>
-            <br/><br/>
-            <div class="container">
-                <div style="text-align: center;">
-                    <div class="fb-page" data-href="https://www.facebook.com/CompanyOneBand" data-tabs="timeline" data-width="600" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/CompanyOneBand" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CompanyOneBand">CompanyOne</a></blockquote></div>
-                </div>
-            </div>
-        </section>
-        <hr>
+
 <?php get_footer();?>
