@@ -1,0 +1,105 @@
+img {
+  width: 100%;
+}
+#co1-logo {
+  width: 38.5%;
+  position: absolute;
+  right: 0;
+  border: 5px solid white;
+  border-top-width: 10px;
+  opacity: .3;
+}
+h1 {
+  text-align: center;
+  padding: 1em 0;
+}
+#co1-quotes {
+  background: black;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  -webkit-box-shadow: 0px 0px 32px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 32px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 32px 6px rgba(0, 0, 0, 0.75);
+}
+#co1-quotes #quotesCarousel .item blockquote {
+  text-align: center;
+  border-left: none;
+  color: #00adef;
+}
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+#co1-tour div {
+  background: black;
+  color: white;
+}
+#co1-tour {
+  background: black;
+  text-align: center;
+}
+#co1-tour .jumbotron {
+  background: black;
+  position: relative;
+  margin-bottom: 0;
+}
+#co1-tour .jumbotron .container {
+  position: relative;
+}
+#co1-tour .jumbotron .container iframe {
+  width: 640px;
+  min-height: 500px;
+}
+#co1-tour .jumbotron > img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+#co1-tour .gigpress-table td,
+#co1-tour .gigpress-table th {
+  color: #333333;
+}
+#co1-tour .gigpress-table tr.gigpress-header th {
+  color: #ffffff;
+}
+#co1-tour .gigpress-table th.gigpress-heading {
+  color: #333333;
+}
+#co1-video iframe {
+  width: 100%;
+}
+#co1-video .container > div {
+  margin-bottom: 3em;
+}
+#co1-digital {
+  text-align: center;
+}
+#co1-digital .jumbotron {
+  background: white;
+}
+#co1-digital img {
+  max-width: 250px;
+}
+#co1-about h2 {
+  margin: 1em;
+  text-decoration: underline;
+}

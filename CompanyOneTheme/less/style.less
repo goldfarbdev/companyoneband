@@ -1,0 +1,65 @@
+@import "bootstrap.less";
+@import "home.less";
+body{position: relative;}
+ul{
+	list-style: none;
+}
+a.button{
+	.btn;
+	color:white;
+}
+.jumbotron{
+	background: white;
+	.container{
+		background: white;
+		text-align: center;
+	}
+}
+.navbar.navbar-inverse{
+	background-color:@gray-base;
+	border-bottom:0;
+	ul.navbar-nav li{
+		a{
+			color:white;
+			&:hover{
+				color:rgb(0, 173, 239);
+				border-bottom: 4px solid rgb(0, 173, 239);
+			}
+		}
+		&.active a{
+			color:rgb(0, 173, 239);
+			border-bottom: 4px solid rgb(0, 173, 239);
+		}
+		@media (max-width: @screen-xs-max){
+			a{text-align: center;}
+		}
+	}
+	.navbar-brand{
+		margin-left: 15px;
+		padding: 0;
+		max-width: 110px;
+		img{
+			width: 100%;
+		}
+
+	}
+	@media (max-width: @screen-xs-max){
+		.navbar-brand{
+			max-width: 50px;
+		}
+	}
+	@media (min-width: @screen-sm-min)
+	{
+		ul.navbar-nav{float: right;}
+	}
+}
+footer{
+	text-align: center;
+}
+.modal-backdrop{
+	z-index: 0;
+}
+
+.fb-page.fb_iframe_widget div, .fb-page.fb_iframe_widget span, .fb-page.fb_iframe_widget iframe {
+	max-width: 100%!important;
+}
